@@ -1,0 +1,48 @@
+
+@mixin flex_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex_space_center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin flex_space_start{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+@mixin flex_space_end{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+@mixin flex_column{
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin flex_column_center{
+    @include flex_center;
+    flex-direction: column;
+}
+
+@mixin pos_center{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+@mixin bg_center($url){
+    background-image: url($url);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

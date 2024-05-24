@@ -1,0 +1,245 @@
+<?php
+include_once "../include/header.html";
+?>
+<main>
+    <div id="main">
+        <div class="main">
+            <div class="swiper main_slide">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./images/main01.png" alt="" class="pc_img">
+                        <img src="./images/main01_mo.png" alt="" class="mo_img">
+                        <div class="title title_color">
+                            <script>
+                                let title_color = document.querySelectorAll(".title_color");
+                                if (window.innerWidth >= 767) {
+                                    title_color.forEach(el => {
+                                        el.style.color = "#27417f";
+                                    })
+                                } else {
+                                    title_color.forEach(el => {
+                                        el.style.color = "#fff";
+                                    })
+                                }
+                                window.addEventListener("resize", () => {
+                                    if (window.innerWidth >= 767) {
+                                        title_color.forEach(el => {
+                                            el.style.color = "#27417f";
+                                        })
+                                    } else {
+                                        title_color.forEach(el => {
+                                            el.style.color = "#fff";
+                                        })
+                                    }
+                                });
+                            </script>
+                            <h1>DK ENGINEERING & CONSTRUCTION Co.,LTD</h1>
+                            <p>
+                                DK E&C Co., Ltd. is a company specializing in power generation<br /> and maintenance
+                                We will reward our customers’ trust with the best quality and technology.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/main02.png" alt="" class="pc_img">
+                        <img src="./images/main02_mo.png" alt="" class="mo_img">
+                        <div class="title" style="color: #fff;">
+                            <h1>DK ENGINEERING & CONSTRUCTION Co.,LTD</h1>
+                            <p>
+                                DK E&C Co., Ltd. is a company specializing in power generation<br /> and maintenance
+                                We will reward our customers’ trust with the best quality and technology.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about">
+            <div class="swiper about_slide">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="bg">
+                            <img src="./images/about01.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h2>PROFESSIONAL & CHALLENGE</h2>
+                            <p>With expertise, we constantly <br> challenge ourselves for a better future.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="bg">
+                            <img src="./images/about02.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h2>Grow Together with Society</h2>
+                            <p>We continue to grow along with society.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="business">
+            <div class="inner">
+                <div class="title-box" data-aos="fade-up">
+                    <h2>Our Business</h2>
+                </div>
+                <ul>
+                    <li data-aos="fade-up">
+                        <p>Power facility<br /> maintenance</p>
+                        <a href="../field/repair.html" class="view-more">View More +</a>
+                    </li>
+                    <li data-aos="fade-up">
+                        <p>Transmission<br /> distribution</p>
+                        <a href="../field/distribution.html" class="view-more">View More +</a>
+                    </li>
+                    <li data-aos="fade-up">
+                        <p>Electric & mechanical equipment construction</p>
+                        <a href="../field/erection.html" class="view-more">View More +</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="performance">
+            <div class="inner">
+                <div class="title-box">
+                    <h2 data-aos="fade-up">Our Performance</h2>
+                    <span data-aos="fade-up" data-aos-delay="300">We will constantly strive to provide services that satisfy our customers.</span>
+                </div>
+                <ul>
+                    <li data-aos="fade-up">
+                        <a href="../performance/repair.html">
+                            <div class="bg"><img src="./images/performance01.png" alt=""></div>
+                            <div class="text" data-aos="fade-up" data-aos-delay="300">
+                                <p>
+                                    Power facility
+                                    maintenance
+                                </p>
+                                <div>
+                                    <img src="../images/slide-arrow_wh.svg" alt="">
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li data-aos="fade-up">
+                        <a href="../performance/distribution.html">
+                            <div class="bg"><img src="./images/performance02.png" alt=""></div>
+                            <div class="text" data-aos="fade-up" data-aos-delay="300">
+                                <p>
+                                    Transmission
+                                    distribution
+                                </p>
+                                <div>
+                                    <img src="../images/slide-arrow_wh.svg" alt="">
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li data-aos="fade-up">
+                        <a href="../performance/erection.html">
+                            <div class="bg"><img src="./images/performance03.png" alt=""></div>
+                            <div class="text" data-aos="fade-up" data-aos-delay="300">
+                                <p>
+                                    Specialized
+                                    construction
+                                </p>
+                                <div>
+                                    <img src="../images/slide-arrow_wh.svg" alt="">
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li data-aos="fade-up">
+                        <a href="../performance/machine.html">
+                            <div class="bg"><img src="./images/performance04.png" alt=""></div>
+                            <div class="text" data-aos="fade-up" data-aos-delay="300">
+                                <p>
+                                    Mechanical equipment
+                                    construction
+                                </p>
+                                <div>
+                                    <img src="../images/slide-arrow_wh.svg" alt="">
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="certification">
+            <div class="inner">
+                <div class="title-box">
+                    <h2 data-aos="fade-up">Certificates</h2>
+                </div>
+                <a class="swiper swiper_cert" href="../about/certification.html">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="../images/Certificates/0.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../images/Certificates/1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../images/Certificates/2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../images/Certificates/3.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../images/Certificates/4.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../images/Certificates/5.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../images/Certificates/6.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../images/Certificates/7.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../images/Certificates/8.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../images/Certificates/9.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../images/Certificates/10.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../images/Certificates/11.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../images/Certificates/12.jpg" alt=""></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="contact_news">
+            <div class="inner">
+                <div class="title-box">
+                    <h2 data-aos="fade-up">Contact us & News</h2>
+                    <span data-aos="fade-up" data-aos-delay="300">Let's discover new stories from DK E&C.</span>
+                </div>
+                <div class="info">
+                    <div class="contact" data-aos="fade-right">
+                        <div class="img-wrap"><img src="./images/contact01.png" alt=""></div>
+                        <div class="text">
+                            <p>DK E&C <strong>Inquiries</strong></p>
+                            <span>If you make an inquiry, we will provide you with detailed answers as quickly as possible.</span>
+                            <a href="../contact/contact.html" class="view-more">View More +</a>
+                        </div>
+                    </div>
+                    <ul class="news" data-aos="fade-left">
+                        <li>
+                            <a href="../news/detail.html" class="img-wrap"><img src="./images/news01.png" alt=""></a>
+                            <div class="text">
+                                <a class="tit" href="../news/detail.html">Busan City selects 15 companies as ‘Excellent Employment Companies Creating Jobs’</a>
+                                <div class="txt">Even in difficult economic situations such as high interest rates and high inflation, Busan City</div>
+                                <div class="date">2024-01-02</div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="../news/detail.html" class="img-wrap"><img src="./images/news02.png" alt=""></a>
+                            <div class="text">
+                                <a class="tit" href="../news/detail.html">Busan City selects 15 companies as ‘Excellent Employment Companies Creating Jobs’</a>
+                                <div class="txt">DK E&C solution exhibition</div>
+                                <div class="date">2024-01-02</div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="../news/detail.html" class="img-wrap"><img src="./images/news03.png" alt=""></a>
+                            <div class="text">
+                                <a class="tit" href="../news/detail.html">Busan City selects 15 companies as ‘Excellent Employment Companies Creating Jobs’</a>
+                                <div class="txt">Even in difficult economic situations such as high interest rates and high inflation, Busan City</div>
+                                <div class="date">2024-01-02</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<?php
+include_once "../include/util_menu.html"
+?>
+<?php
+include_once "../include/footer.html"
+?>

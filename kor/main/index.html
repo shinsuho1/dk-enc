@@ -1,0 +1,233 @@
+<?php
+include_once "../include/header.html";
+?>
+<main>
+    <div id="main">
+        <div class="main">
+            <div class="swiper main_slide">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./images/main01.png" alt="" class="pc_img">
+                        <img src="./images/main01_mo.png" alt="" class="mo_img">
+                        <div class="title title_color">
+                            <script>
+                                let title_color = document.querySelectorAll(".title_color");
+                                if (window.innerWidth >= 767) {
+                                    title_color.forEach(el => {
+                                        el.style.color = "#27417f";
+                                    })
+                                } else {
+                                    title_color.forEach(el => {
+                                        el.style.color = "#fff";
+                                    })
+                                }
+                                window.addEventListener("resize", () => {
+                                    if (window.innerWidth >= 767) {
+                                        title_color.forEach(el => {
+                                            el.style.color = "#27417f";
+                                        })
+                                    } else {
+                                        title_color.forEach(el => {
+                                            el.style.color = "#fff";
+                                        })
+                                    }
+                                });
+                            </script>
+                            <h1>DK ENGINEERING & CONSTRUCTION Co.,LTD</h1>
+                            <p>
+                                디케이이앤씨 주식회사는 발전정비 전문기업으로써<br />
+                                최고의 품질과 기술력으로 고객의 신뢰에 보답하겠습니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/main02.png" alt="" class="pc_img">
+                        <img src="./images/main02_mo.png" alt="" class="mo_img">
+                        <div class="title" style="color: #fff;">
+                            <h1>DK ENGINEERING & CONSTRUCTION Co.,LTD</h1>
+                            <p>
+                                디케이이앤씨 주식회사는 발전정비 전문기업으로써<br />
+                                최고의 품질과 기술력으로 고객의 신뢰에 보답하겠습니다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about">
+            <div class="swiper about_slide">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="bg">
+                            <img src="./images/about01.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h2>PROFESSIONAL & CHALLENGE</h2>
+                            <p>전문성을 가지고 더 나은 미래를<br class="mo-only" /> 위해 끊임없이 도전합니다.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="bg">
+                            <img src="./images/about02.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h2>Grow Together with Society</h2>
+                            <p>사회와 더불어 지속성장합니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="business">
+            <div class="inner">
+                <div class="title-box" data-aos="fade-up">
+                    <h2>Our Business</h2>
+                </div>
+                <ul>
+                    <li data-aos="fade-up">
+                        <p>발전정비사업</p>
+                        <a href="../field/repair.html" class="view-more">View More +</a>
+                    </li>
+                    <li data-aos="fade-up">
+                        <p>송배전사업</p>
+                        <a href="../field/distribution.html" class="view-more">View More +</a>
+                    </li>
+                    <li data-aos="fade-up">
+                        <p>전기공사·기계설비공사</p>
+                        <a href="../field/erection.html" class="view-more">View More +</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="performance">
+            <div class="inner">
+                <div class="title-box">
+                    <h2 data-aos="fade-up">Our Performance</h2>
+                    <span data-aos="fade-up" data-aos-delay="300">고객이 만족하는 서비스를 제공하기 위해 끊임없이 노력하겠습니다.</span>
+                </div>
+                <ul>
+                    <li data-aos="fade-up">
+                        <a href="../performance/repair.html">
+                            <div class="bg"><img src="./images/performance01.png" alt=""></div>
+                            <div class="text" data-aos="fade-up" data-aos-delay="300">
+                                <p>발전정비사업</p>
+                                <div>
+                                    <img src="../images/slide-arrow_wh.svg" alt="">
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li data-aos="fade-up">
+                        <a href="../performance/distribution.html">
+                            <div class="bg"><img src="./images/performance02.png" alt=""></div>
+                            <div class="text" data-aos="fade-up" data-aos-delay="300">
+                                <p>송배전사업</p>
+                                <div>
+                                    <img src="../images/slide-arrow_wh.svg" alt="">
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li data-aos="fade-up">
+                        <a href="../performance/erection.html">
+                            <div class="bg"><img src="./images/performance03.png" alt=""></div>
+                            <div class="text" data-aos="fade-up" data-aos-delay="300">
+                                <p>전기공사</p>
+                                <div>
+                                    <img src="../images/slide-arrow_wh.svg" alt="">
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li data-aos="fade-up">
+                        <a href="../performance/machine.html">
+                            <div class="bg"><img src="./images/performance04.png" alt=""></div>
+                            <div class="text" data-aos="fade-up" data-aos-delay="300">
+                                <p>기계설비공사</p>
+                                <div>
+                                    <img src="../images/slide-arrow_wh.svg" alt="">
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="certification">
+            <div class="inner">
+                <div class="title-box">
+                    <h2 data-aos="fade-up">Certificates</h2>
+                </div>
+                <a class="swiper swiper_cert" href="../about/certification.html">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="../images/Certificates/0.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../images/Certificates/1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../images/Certificates/2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../images/Certificates/3.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../images/Certificates/4.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../images/Certificates/5.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../images/Certificates/6.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../images/Certificates/7.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../images/Certificates/8.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../images/Certificates/9.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../images/Certificates/10.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../images/Certificates/11.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../images/Certificates/12.jpg" alt=""></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="contact_news">
+            <div class="inner">
+                <div class="title-box">
+                    <h2 data-aos="fade-up">Contact us & News</h2>
+                    <span data-aos="fade-up" data-aos-delay="300">DK E&C에서 전하는 새로운 이야기를 만나보세요</span>
+                </div>
+                <div class="info">
+                    <div class="contact" data-aos="fade-right">
+                        <div class="img-wrap"><img src="./images/contact01.png" alt=""></div>
+                        <div class="text">
+                            <p>DK E&C <strong>문의하기</strong></p>
+                            <span>문의사항을 남겨주시면 빠르고 상세하게 답변 드리겠습니다.</span>
+                            <a href="../contact/contact.html" class="view-more">View More +</a>
+                        </div>
+                    </div>
+                    <ul class="news" data-aos="fade-left">
+                        <li>
+                            <a href="../news/detail.html" class="img-wrap"><img src="./images/news01.png" alt=""></a>
+                            <div class="text">
+                                <a class="tit" href="../news/detail.html">부산시, '일자리 청출한 고용우수기업' 15개사 선정</a>
+                                <div class="txt">부산시가 고금리, 고물가 등 어려운 경제 상황에서도 부산지</div>
+                                <div class="date">2024-01-02</div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="../news/detail.html" class="img-wrap"><img src="./images/news02.png" alt=""></a>
+                            <div class="text">
+                                <a class="tit" href="../news/detail.html">부산시, '일자리 청출한 고용우수기업' 15개사 선정</a>
+                                <div class="txt">DK E&C 솔루션 전시</div>
+                                <div class="date">2024-01-02</div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="../news/detail.html" class="img-wrap"><img src="./images/news03.png" alt=""></a>
+                            <div class="text">
+                                <a class="tit" href="../news/detail.html">부산시, '일자리 청출한 고용우수기업' 15개사 선정 부산시, '일자리 청출한 고용우수기업' 15개사 선정</a>
+                                <div class="txt">부산시가 고금리, 고물가 등 어려운 경제 상황에서도 부산지</div>
+                                <div class="date">2024-01-02</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<?php
+include_once "../include/util_menu.html"
+?>
+<?php
+include_once "../include/footer.html"
+?>
