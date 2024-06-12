@@ -217,7 +217,8 @@ main {
                         background-size: cover;
                         text-align: center;
                         position: relative;
-
+                        border-radius: 100px 0 100px 100px;
+                        padding: 20px;
                         p {
                             font-family: "Pretendard";
                             font-size: 38px;
@@ -235,13 +236,13 @@ main {
                         }
 
                         &:nth-child(2) {
-                            background-image: url(../main/images/business02.png);
+                            background-image: url(../main/images/performance02.png);
                             margin-top: 180px;
                         }
 
 
                         &:nth-child(3) {
-                            background-image: url(../main/images/business03.png);
+                            background-image: url(../main/images/business02.png);
                             margin-top: 50px
                         }
                     }
@@ -271,7 +272,7 @@ main {
                         .img-wrap {
                             border-radius: 10px 10px 0 0;
                             height: 420px;
-
+                            overflow: hidden;
                             img {
                                 height: 100%;
                                 object-fit: contain;
@@ -723,6 +724,11 @@ main {
                         text-align: right;
                         font-size: 25px;
                         font-weight: 500;
+                        img{
+                            width: 100px;
+                            object-fit: contain;
+                            margin-left: 10px;
+                        }
                     }
                 }
             }
