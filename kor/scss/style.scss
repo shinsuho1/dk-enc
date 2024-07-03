@@ -1460,6 +1460,9 @@ main {
                         font-size: 22px;
                         font-weight: 600;
                         color: #000;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: flex-start;
                         sup{
                             color: #3f8cff;
                         }
